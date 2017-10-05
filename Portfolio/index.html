@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathalie Rabell</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="mystyle.css" rel="stylesheet" type="text/css" />
+    <link href="Images/favicon.png" rel="icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/ac1337f616.js"></script>
+</head>
+<body>
+
+
+
+    <div class="container-fluid">
+
+        <!-------------------------------- MENU -------------------------------->
+
+        <nav class="navbar navbar-static-top header">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="Images/nrlogo.png" height="100%" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Forside</a></li>
+                    <li><a href="#ommig">Om mig</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Start side -->
+
+        <div class="jumbotron">
+            <h1>Nathalie Rabells portfolio</h1>
+            <h3>Velkommen til. Her vil jeg i fremtiden lægge skole projekter såvel som selvstændige projekter op.</h3>
+        </div>
+
+        <!-- OM MIG SECTION -->
+        <section class="opdeler" id="ommig">
+            <div class="container">
+                <div class="row">
+                    <div class="col-m-12">
+                        <h2 class="overskrift">Om mig</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-md-5 tekst">
+                        <h3>Hvem er jeg?</h3>
+                        <p>Mit navn er Nathalie og jeg er 25 år gammel. Jeg studerer multimediedesign på CPHbussiness, hvor jeg startede i august 2017. Jeg er en glad og enthusiastisk pige der elsker en udfordring. Det kan bl.a. ses i min passion for at programmere og gå i dybden med de små detaljer.</p>
+                        <h3>Design og programmering</h3>
+                        <p>Jeg har været intereseret i at udfolde mig kreativt via digitale midler siden jeg gik på Medieskolen Lyngby, tilbage i 2009. Der arbejdede jeg med webdesign i 1 år, hvor jeg fik kendskab til redskaber som Adobe Photoshop, Illustrator og Flash.</p>
+                        <p>I 2016 afsluttede jeg min uddannelse som webintegrator. Dette betyder at jeg udmærker mig i at kode HTML, CSS, PHP, MySQL og .NET. For eftertiden vil jeg også komme til at blive bedre i JavaScript.</p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1 col-md-6">
+                        <img src="Images/mig.png" class="center img-responsive center ombillede" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PORTFOLIO SECTION -->
+
+        <section class="opdeler paralax textcenter" id="portfolio">
+            <div class="container">
+                <h2 class="overskrift">Portfolio</h2>
+
+                <div class="row">
+                    <div class="col-xs-4 boxportfolio">
+                        <a href="design.html">
+                            <img src="Images/design_knap.jpg" class="img-responsive center hover1" />
+                            <img src="Images/design_knap_hover.jpg" class="img-responsive center hover" />
+                        </a>
+                    </div>
+                    <div class="col-xs-4 boxportfolio">
+                        <a href="htmlcss.html">
+                            <img src="Images/htmlcss_knap.jpg" class="img-responsive center hover1" />
+                            <img src="Images/htmlcss_knap_hover.jpg" class="img-responsive center hover" />
+                        </a>
+                    </div>
+                    <div class="col-xs-4 boxportfolio">
+                        <a href="programmering.html">
+                            <img src="Images/programmering_knap.jpg" class="img-responsive center hover1" />
+                            <img src="Images/programmering_knap_hover.jpg" class="img-responsive center hover" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- KONTAKT SECTION -->
+
+        <section class="opdeler" id="kontakt">
+            <a id="kontakt"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-m-12">
+                        <h2 class="overskrift">Kontakt</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-md-5 tekst">
+                        <form method="post" action="index.php">
+
+                            <label>Navn</label>
+                            <input name="name" placeholder="Skriv her">
+
+                            <label>Email</label>
+                            <input name="email" type="email" placeholder="Skriv her">
+
+                            <label>Besked</label>
+                            <textarea name="message" placeholder="Skriv her"></textarea>
+
+                            <input id="submit" name="submit" type="submit" value="Send">
+
+                        </form>
+
+                    </div>
+                    <div class="col-md-4 col-md-offset-1 col-md-6">
+                        <div class="kontaktinfo">
+                            <!-- Google map -->
+                            <iframe class="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.8886069447335!2d12.511498151961641!3d55.77780648046476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6f904b0421%3A0xae5dfa591275cf9d!2sCarlsh%C3%B8jvej%2C+2800+Kongens+Lyngby!5e0!3m2!1sda!2sdk!4v1507151787774" width="100%" height="300" frameborder="0" style="border:0; padding-left:5%;" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer-distributed">
+            <div class="footer-right">
+                <a href="https://www.facebook.com/nathalierabell" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ditzynat/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://dk.linkedin.com/in/nathalie-rabell-andersen-4aba5b142/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/NathalieRabell" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="footer-left">
+                <p class="footer-links">
+                    <a href="#">Top</a>
+                </p>
+                <p>Nathalie Rabell &copy; 2017</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $('.nav a').on('click', function () {
+            $('.btn-navbar').click(); //bootstrap 2.x
+            $('.navbar-toggle').click() //bootstrap 3.x by Richard
+        });
+    </script>
+</body>
+</html>

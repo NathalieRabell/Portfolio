@@ -1,0 +1,371 @@
+﻿
+/************************* OVERORDNET DESIGN ************************/
+body {
+    font-family: "GTWalsheim", sans-serif;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.padding {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.row {
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.tekst {
+    padding-left: 10%;
+}
+
+/**************************** MENU **********************************/
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-nav > li {
+    list-style-type: none;
+}
+
+    .navbar-nav > li > a {
+        color: black;
+        text-decoration: none;
+    }
+
+        .navbar-nav > li > a:hover {
+            background-color: #B18484;
+        }
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    padding-right: 0.5%;
+}
+.navbar-nav {
+    margin: 0;
+}
+
+
+.icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    padding-right: 0;
+}
+
+.navbar-brand {
+    padding: 8px 10px;
+}
+
+/********************** JUMBOTRON *******************************/
+
+.jumbotron {
+    background: url(Images/webdesign.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #784C4C;
+    height: 100vh;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(82, 38, 38), 0px 0px 1px #670101;
+    padding-top: 10%;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+/************************* OM MIG ********************************/
+
+.opdeler {
+    padding-bottom: 10%;
+}
+
+    .opdeler h2::before {
+        content: " ";
+        display: block;
+        margin: 10px auto 7% auto;
+    }
+
+    .opdeler h2 {
+        text-align: center;
+    }
+
+.opdeler-indhold {
+    margin: 0px auto;
+    width: 80vh;
+    display: block;
+    overflow: auto;
+}
+
+
+.overskrift {
+    font-size: 39px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+.ombillede {
+    width: 100%;
+    max-width: 400px;
+    padding-top: 5%;
+}
+
+
+/* SECTION PORTFOLIO */
+
+.paralax {
+    background-size: cover;
+    background-color: #784C4C;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(82, 38, 38), 0px 0px 1px #670101;
+}
+
+
+
+.portfoliosider {
+    height: 50%;
+}
+
+.portfolioitem {
+    border: 1px solid #784C4C;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    padding-top: 0px;
+}
+
+.hover1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.boxportfolio {
+    position: relative;
+}
+
+    .boxportfolio:hover .hover {
+        opacity: 1;
+
+    }
+
+/****************************** KONTAKT *****************************/
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 1%;
+    font-size: 0.9em;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+    input:focus, textarea:focus {
+        border: 1px solid #97d6eb;
+    }
+
+textarea {
+    height: 213px;
+    background: url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+    width: 127px;
+    height: 38px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+    #submit:hover {
+        opacity: .9;
+    }
+
+.kontaktinfo {
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+/************************* DESIGN **********************/
+
+.design {
+    background: url(Images/design.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #784C4C;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(82, 38, 38), 0px 0px 1px #670101;
+    padding-top: 10%;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+.boxdesign {
+    padding-top: 10%;
+}
+
+    .boxdesign h4 {
+        font-size: 1.1em;
+    }
+
+.boxdesign2 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+/************************* PROGRAMMERING ************************/
+
+.programmering {
+    background: url(Images/programmering.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #784C4C;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(82, 38, 38), 0px 0px 1px #670101;
+    padding-top: 10%;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+/************************* HTML/CSS ************************/
+
+.htmlcss {
+    background: url(Images/htmlcss.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #784C4C;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(82, 38, 38), 0px 0px 1px #670101;
+    padding-top: 10%;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+
+/******************************************************************* FOOTER **************************************************/
+
+.footer-distributed {
+    background-color: #784C4C;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+    .footer-distributed .footer-left p {
+        color: #b7b7b7;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /* Footer links */
+
+    .footer-distributed p.footer-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+
+        .footer-distributed p.footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .footer-distributed .footer-right {
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+    }
+
+        .footer-distributed .footer-right a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background-color: #33383b;
+            border-radius: 2px;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 35px;
+            margin-left: 3px;
+        }
+
+/* media queries for responsive */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
