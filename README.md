@@ -23,5 +23,6 @@ Jeg overvejede at lave en content div hvor jeg ville gøre brug af PHP include. 
 Udover det har jeg heller ikke fået gjort min kontaktform funktionel endnu, af samme årsag.
 I stedet har jeg lagt fokus på design og fremtoning af hjemmesiden.
 I fremtiden vil jeg også have nogle under mapper i min billede mappe, for at skabe lidt mere struktur, og måske flere kommentarer i koden der er mere overskuelige.
+Som en sidste detalje skal jeg også have komprimeret mine billeder mm. da siden ellers bliver lidt tung og derved vil have en hurtigere loading tid.
 
 
